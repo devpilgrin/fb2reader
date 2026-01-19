@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0">
+    <description>
+        <title-info>
+            <genre>sci_fi</genre>
+            <author>
+                <first-name>Isaac</first-name>
+                <last-name>Asimov</last-name>
+            </author>
+            <book-title>Foundation</book-title>
+            <annotation>The story of the Foundation, a colony of scientists preserving knowledge during the fall of the Galactic Empire.</annotation>
+            <lang>en</lang>
+            <sequence name="Foundation Series"/>
+        </title-info>
+        <document-info>
+            <id>foundation-001</id>
+        </document-info>
+        <publish-info>
+            <isbn>978-0-553-29335-0</isbn>
+        </publish-info>
+    </description>
+    <body>
+        <section>
+            <title><p>Part 1</p></title>
+            <p>The Galactic Empire was falling...</p>
+            <p>Hari Seldon stood before the Commission of Public Safety.</p>
+        </section>
+        <section>
+            <title><p>Part 2</p></title>
+            <p>The Foundation was established on Terminus.</p>
+        </section>
+    </body>
+</FictionBook>
