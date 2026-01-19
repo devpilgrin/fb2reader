@@ -1,53 +1,6 @@
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
-
-[project]
-name = "fb2reader"
-version = "1.0.4"
-description = "A Python library for extracting data and metadata from FB2 (FictionBook 2) format files"
-readme = "README.md"
-requires-python = ">=3.8"
-license = {text = "Apache-2.0"}
-authors = [
-    {name = "Roman Kudryavskyi", email = "devpilgrim@gmail.com"}
-]
-keywords = ["ebook", "metadata", "fb2", "fictionbook", "parser", "reader"]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Text Processing :: Markup :: XML",
-    "Typing :: Typed",
-]
-
-dependencies = [
-    "beautifulsoup4>=4.9.0",
-    "lxml>=4.6.0",
-]
-
-[project.optional-dependencies]
-dev = [
-    "pytest>=7.0.0",
-    "pytest-cov>=3.0.0",
-    "black>=22.0.0",
-    "flake8>=4.0.0",
-    "mypy>=0.950",
-]
-
-[project.urls]
-Homepage = "https://github.com/devpilgrin/fb2reader"
-Documentation = "https://github.com/devpilgrin/fb2reader#readme"
-Repository = "https://github.com/devpilgrin/fb2reader"
-"Bug Reports" = "https://github.com/devpilgrin/fb2reader/issues"
 
 [tool.black]
 line-length = 100
