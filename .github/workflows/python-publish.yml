@@ -90,5 +90,5 @@ jobs:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        pip install "twine<6.0" pkginfo
+        pip install "twine==5.0.0" pkginfo
         twine upload --skip-existing dist/*
